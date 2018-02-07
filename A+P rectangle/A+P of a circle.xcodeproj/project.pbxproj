@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDD191022023BC6F001DDF9F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191012023BC6F001DDF9F /* Array.swift */; };
-		CDD191052023BC8F001DDF9F /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191042023BC8F001DDF9F /* Func.swift */; };
-		CDD191072023BCA4001DDF9F /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191062023BCA4001DDF9F /* Loops.swift */; };
-		CDD191092023BCFB001DDF9F /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191082023BCFB001DDF9F /* Class.swift */; };
-		CDF84FD82020F94300692C61 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF84FD72020F94300692C61 /* Types.swift */; };
+		CDD191172024BEA9001DDF9F /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191162024BEA9001DDF9F /* class.swift */; };
+		CDD1911E2024E560001DDF9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1911D2024E560001DDF9F /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CDF84FD22020F94300692C61 /* CopyFiles */ = {
+		CDD191112024BEA9001DDF9F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,16 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CDD191012023BC6F001DDF9F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		CDD191042023BC8F001DDF9F /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
-		CDD191062023BCA4001DDF9F /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
-		CDD191082023BCFB001DDF9F /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
-		CDF84FD42020F94300692C61 /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF84FD72020F94300692C61 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		CDD191132024BEA9001DDF9F /* A+P of a circle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A+P of a circle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD191162024BEA9001DDF9F /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
+		CDD1911D2024E560001DDF9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDF84FD12020F94300692C61 /* Frameworks */ = {
+		CDD191102024BEA9001DDF9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,104 +40,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDF84FCB2020F94300692C61 = {
+		CDD1910A2024BEA9001DDF9F = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD62020F94300692C61 /* Notes */,
-				CDF84FD52020F94300692C61 /* Products */,
+				CDD191152024BEA9001DDF9F /* A+P of a circle */,
+				CDD191142024BEA9001DDF9F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDF84FD52020F94300692C61 /* Products */ = {
+		CDD191142024BEA9001DDF9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD42020F94300692C61 /* Notes */,
+				CDD191132024BEA9001DDF9F /* A+P of a circle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDF84FD62020F94300692C61 /* Notes */ = {
+		CDD191152024BEA9001DDF9F /* A+P of a circle */ = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD72020F94300692C61 /* Types.swift */,
-				CDD191082023BCFB001DDF9F /* Class.swift */,
-				CDD191062023BCA4001DDF9F /* Loops.swift */,
-				CDD191042023BC8F001DDF9F /* Func.swift */,
-				CDD191012023BC6F001DDF9F /* Array.swift */,
+				CDD191162024BEA9001DDF9F /* class.swift */,
+				CDD1911D2024E560001DDF9F /* main.swift */,
 			);
-			path = Notes;
+			path = "A+P of a circle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDF84FD32020F94300692C61 /* Notes */ = {
+		CDD191122024BEA9001DDF9F /* A+P of a circle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF84FDB2020F94300692C61 /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildConfigurationList = CDD1911A2024BEA9001DDF9F /* Build configuration list for PBXNativeTarget "A+P of a circle" */;
 			buildPhases = (
-				CDF84FD02020F94300692C61 /* Sources */,
-				CDF84FD12020F94300692C61 /* Frameworks */,
-				CDF84FD22020F94300692C61 /* CopyFiles */,
+				CDD1910F2024BEA9001DDF9F /* Sources */,
+				CDD191102024BEA9001DDF9F /* Frameworks */,
+				CDD191112024BEA9001DDF9F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Notes;
-			productName = Notes;
-			productReference = CDF84FD42020F94300692C61 /* Notes */;
+			name = "A+P of a circle";
+			productName = "A+P of a circle";
+			productReference = CDD191132024BEA9001DDF9F /* A+P of a circle */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDF84FCC2020F94300692C61 /* Project object */ = {
+		CDD1910B2024BEA9001DDF9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Keano Bellmore";
 				TargetAttributes = {
-					CDF84FD32020F94300692C61 = {
+					CDD191122024BEA9001DDF9F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CDF84FCF2020F94300692C61 /* Build configuration list for PBXProject "Notes" */;
+			buildConfigurationList = CDD1910E2024BEA9001DDF9F /* Build configuration list for PBXProject "A+P of a circle" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CDF84FCB2020F94300692C61;
-			productRefGroup = CDF84FD52020F94300692C61 /* Products */;
+			mainGroup = CDD1910A2024BEA9001DDF9F;
+			productRefGroup = CDD191142024BEA9001DDF9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDF84FD32020F94300692C61 /* Notes */,
+				CDD191122024BEA9001DDF9F /* A+P of a circle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDF84FD02020F94300692C61 /* Sources */ = {
+		CDD1910F2024BEA9001DDF9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD191052023BC8F001DDF9F /* Func.swift in Sources */,
-				CDF84FD82020F94300692C61 /* Types.swift in Sources */,
-				CDD191022023BC6F001DDF9F /* Array.swift in Sources */,
-				CDD191092023BCFB001DDF9F /* Class.swift in Sources */,
-				CDD191072023BCA4001DDF9F /* Loops.swift in Sources */,
+				CDD191172024BEA9001DDF9F /* class.swift in Sources */,
+				CDD1911E2024E560001DDF9F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CDF84FD92020F94300692C61 /* Debug */ = {
+		CDD191182024BEA9001DDF9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		CDF84FDA2020F94300692C61 /* Release */ = {
+		CDD191192024BEA9001DDF9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +237,7 @@
 			};
 			name = Release;
 		};
-		CDF84FDC2020F94300692C61 /* Debug */ = {
+		CDD1911B2024BEA9001DDF9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		CDF84FDD2020F94300692C61 /* Release */ = {
+		CDD1911C2024BEA9001DDF9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDF84FCF2020F94300692C61 /* Build configuration list for PBXProject "Notes" */ = {
+		CDD1910E2024BEA9001DDF9F /* Build configuration list for PBXProject "A+P of a circle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF84FD92020F94300692C61 /* Debug */,
-				CDF84FDA2020F94300692C61 /* Release */,
+				CDD191182024BEA9001DDF9F /* Debug */,
+				CDD191192024BEA9001DDF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF84FDB2020F94300692C61 /* Build configuration list for PBXNativeTarget "Notes" */ = {
+		CDD1911A2024BEA9001DDF9F /* Build configuration list for PBXNativeTarget "A+P of a circle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF84FDC2020F94300692C61 /* Debug */,
-				CDF84FDD2020F94300692C61 /* Release */,
+				CDD1911B2024BEA9001DDF9F /* Debug */,
+				CDD1911C2024BEA9001DDF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDF84FCC2020F94300692C61 /* Project object */;
+	rootObject = CDD1910B2024BEA9001DDF9F /* Project object */;
 }

@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDD191022023BC6F001DDF9F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191012023BC6F001DDF9F /* Array.swift */; };
-		CDD191052023BC8F001DDF9F /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191042023BC8F001DDF9F /* Func.swift */; };
-		CDD191072023BCA4001DDF9F /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191062023BCA4001DDF9F /* Loops.swift */; };
-		CDD191092023BCFB001DDF9F /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191082023BCFB001DDF9F /* Class.swift */; };
-		CDF84FD82020F94300692C61 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF84FD72020F94300692C61 /* Types.swift */; };
+		CD77DEB02025091200D95186 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77DEAF2025091200D95186 /* main.swift */; };
+		CD77DEB72025092300D95186 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77DEB62025092300D95186 /* class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CDF84FD22020F94300692C61 /* CopyFiles */ = {
+		CD77DEAA2025091200D95186 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,16 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CDD191012023BC6F001DDF9F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		CDD191042023BC8F001DDF9F /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
-		CDD191062023BCA4001DDF9F /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
-		CDD191082023BCFB001DDF9F /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
-		CDF84FD42020F94300692C61 /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF84FD72020F94300692C61 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		CD77DEAC2025091200D95186 /* Macbook func */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Macbook func"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77DEAF2025091200D95186 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CD77DEB62025092300D95186 /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDF84FD12020F94300692C61 /* Frameworks */ = {
+		CD77DEA92025091200D95186 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,104 +40,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDF84FCB2020F94300692C61 = {
+		CD77DEA32025091200D95186 = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD62020F94300692C61 /* Notes */,
-				CDF84FD52020F94300692C61 /* Products */,
+				CD77DEAE2025091200D95186 /* Macbook func */,
+				CD77DEAD2025091200D95186 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDF84FD52020F94300692C61 /* Products */ = {
+		CD77DEAD2025091200D95186 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD42020F94300692C61 /* Notes */,
+				CD77DEAC2025091200D95186 /* Macbook func */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDF84FD62020F94300692C61 /* Notes */ = {
+		CD77DEAE2025091200D95186 /* Macbook func */ = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD72020F94300692C61 /* Types.swift */,
-				CDD191082023BCFB001DDF9F /* Class.swift */,
-				CDD191062023BCA4001DDF9F /* Loops.swift */,
-				CDD191042023BC8F001DDF9F /* Func.swift */,
-				CDD191012023BC6F001DDF9F /* Array.swift */,
+				CD77DEAF2025091200D95186 /* main.swift */,
+				CD77DEB62025092300D95186 /* class.swift */,
 			);
-			path = Notes;
+			path = "Macbook func";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDF84FD32020F94300692C61 /* Notes */ = {
+		CD77DEAB2025091200D95186 /* Macbook func */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF84FDB2020F94300692C61 /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildConfigurationList = CD77DEB32025091200D95186 /* Build configuration list for PBXNativeTarget "Macbook func" */;
 			buildPhases = (
-				CDF84FD02020F94300692C61 /* Sources */,
-				CDF84FD12020F94300692C61 /* Frameworks */,
-				CDF84FD22020F94300692C61 /* CopyFiles */,
+				CD77DEA82025091200D95186 /* Sources */,
+				CD77DEA92025091200D95186 /* Frameworks */,
+				CD77DEAA2025091200D95186 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Notes;
-			productName = Notes;
-			productReference = CDF84FD42020F94300692C61 /* Notes */;
+			name = "Macbook func";
+			productName = "Macbook func";
+			productReference = CD77DEAC2025091200D95186 /* Macbook func */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDF84FCC2020F94300692C61 /* Project object */ = {
+		CD77DEA42025091200D95186 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Keano Bellmore";
 				TargetAttributes = {
-					CDF84FD32020F94300692C61 = {
+					CD77DEAB2025091200D95186 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CDF84FCF2020F94300692C61 /* Build configuration list for PBXProject "Notes" */;
+			buildConfigurationList = CD77DEA72025091200D95186 /* Build configuration list for PBXProject "Macbook func" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CDF84FCB2020F94300692C61;
-			productRefGroup = CDF84FD52020F94300692C61 /* Products */;
+			mainGroup = CD77DEA32025091200D95186;
+			productRefGroup = CD77DEAD2025091200D95186 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDF84FD32020F94300692C61 /* Notes */,
+				CD77DEAB2025091200D95186 /* Macbook func */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDF84FD02020F94300692C61 /* Sources */ = {
+		CD77DEA82025091200D95186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD191052023BC8F001DDF9F /* Func.swift in Sources */,
-				CDF84FD82020F94300692C61 /* Types.swift in Sources */,
-				CDD191022023BC6F001DDF9F /* Array.swift in Sources */,
-				CDD191092023BCFB001DDF9F /* Class.swift in Sources */,
-				CDD191072023BCA4001DDF9F /* Loops.swift in Sources */,
+				CD77DEB72025092300D95186 /* class.swift in Sources */,
+				CD77DEB02025091200D95186 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CDF84FD92020F94300692C61 /* Debug */ = {
+		CD77DEB12025091200D95186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		CDF84FDA2020F94300692C61 /* Release */ = {
+		CD77DEB22025091200D95186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +237,7 @@
 			};
 			name = Release;
 		};
-		CDF84FDC2020F94300692C61 /* Debug */ = {
+		CD77DEB42025091200D95186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		CDF84FDD2020F94300692C61 /* Release */ = {
+		CD77DEB52025091200D95186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDF84FCF2020F94300692C61 /* Build configuration list for PBXProject "Notes" */ = {
+		CD77DEA72025091200D95186 /* Build configuration list for PBXProject "Macbook func" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF84FD92020F94300692C61 /* Debug */,
-				CDF84FDA2020F94300692C61 /* Release */,
+				CD77DEB12025091200D95186 /* Debug */,
+				CD77DEB22025091200D95186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF84FDB2020F94300692C61 /* Build configuration list for PBXNativeTarget "Notes" */ = {
+		CD77DEB32025091200D95186 /* Build configuration list for PBXNativeTarget "Macbook func" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF84FDC2020F94300692C61 /* Debug */,
-				CDF84FDD2020F94300692C61 /* Release */,
+				CD77DEB42025091200D95186 /* Debug */,
+				CD77DEB52025091200D95186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDF84FCC2020F94300692C61 /* Project object */;
+	rootObject = CD77DEA42025091200D95186 /* Project object */;
 }

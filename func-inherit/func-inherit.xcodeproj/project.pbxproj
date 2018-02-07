@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDD191022023BC6F001DDF9F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191012023BC6F001DDF9F /* Array.swift */; };
-		CDD191052023BC8F001DDF9F /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191042023BC8F001DDF9F /* Func.swift */; };
-		CDD191072023BCA4001DDF9F /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191062023BCA4001DDF9F /* Loops.swift */; };
-		CDD191092023BCFB001DDF9F /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD191082023BCFB001DDF9F /* Class.swift */; };
-		CDF84FD82020F94300692C61 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF84FD72020F94300692C61 /* Types.swift */; };
+		CD77DEC52028DAB700D95186 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77DEC42028DAB700D95186 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CDF84FD22020F94300692C61 /* CopyFiles */ = {
+		CD77DEBF2028DAB700D95186 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,16 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CDD191012023BC6F001DDF9F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		CDD191042023BC8F001DDF9F /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
-		CDD191062023BCA4001DDF9F /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
-		CDD191082023BCFB001DDF9F /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
-		CDF84FD42020F94300692C61 /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF84FD72020F94300692C61 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		CD77DEC12028DAB700D95186 /* func-inherit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "func-inherit"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77DEC42028DAB700D95186 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDF84FD12020F94300692C61 /* Frameworks */ = {
+		CD77DEBE2028DAB700D95186 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,104 +38,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDF84FCB2020F94300692C61 = {
+		CD77DEB82028DAB700D95186 = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD62020F94300692C61 /* Notes */,
-				CDF84FD52020F94300692C61 /* Products */,
+				CD77DEC32028DAB700D95186 /* func-inherit */,
+				CD77DEC22028DAB700D95186 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDF84FD52020F94300692C61 /* Products */ = {
+		CD77DEC22028DAB700D95186 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD42020F94300692C61 /* Notes */,
+				CD77DEC12028DAB700D95186 /* func-inherit */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDF84FD62020F94300692C61 /* Notes */ = {
+		CD77DEC32028DAB700D95186 /* func-inherit */ = {
 			isa = PBXGroup;
 			children = (
-				CDF84FD72020F94300692C61 /* Types.swift */,
-				CDD191082023BCFB001DDF9F /* Class.swift */,
-				CDD191062023BCA4001DDF9F /* Loops.swift */,
-				CDD191042023BC8F001DDF9F /* Func.swift */,
-				CDD191012023BC6F001DDF9F /* Array.swift */,
+				CD77DEC42028DAB700D95186 /* main.swift */,
 			);
-			path = Notes;
+			path = "func-inherit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDF84FD32020F94300692C61 /* Notes */ = {
+		CD77DEC02028DAB700D95186 /* func-inherit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF84FDB2020F94300692C61 /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildConfigurationList = CD77DEC82028DAB700D95186 /* Build configuration list for PBXNativeTarget "func-inherit" */;
 			buildPhases = (
-				CDF84FD02020F94300692C61 /* Sources */,
-				CDF84FD12020F94300692C61 /* Frameworks */,
-				CDF84FD22020F94300692C61 /* CopyFiles */,
+				CD77DEBD2028DAB700D95186 /* Sources */,
+				CD77DEBE2028DAB700D95186 /* Frameworks */,
+				CD77DEBF2028DAB700D95186 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Notes;
-			productName = Notes;
-			productReference = CDF84FD42020F94300692C61 /* Notes */;
+			name = "func-inherit";
+			productName = "func-inherit";
+			productReference = CD77DEC12028DAB700D95186 /* func-inherit */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDF84FCC2020F94300692C61 /* Project object */ = {
+		CD77DEB92028DAB700D95186 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Keano Bellmore";
 				TargetAttributes = {
-					CDF84FD32020F94300692C61 = {
+					CD77DEC02028DAB700D95186 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CDF84FCF2020F94300692C61 /* Build configuration list for PBXProject "Notes" */;
+			buildConfigurationList = CD77DEBC2028DAB700D95186 /* Build configuration list for PBXProject "func-inherit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CDF84FCB2020F94300692C61;
-			productRefGroup = CDF84FD52020F94300692C61 /* Products */;
+			mainGroup = CD77DEB82028DAB700D95186;
+			productRefGroup = CD77DEC22028DAB700D95186 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDF84FD32020F94300692C61 /* Notes */,
+				CD77DEC02028DAB700D95186 /* func-inherit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDF84FD02020F94300692C61 /* Sources */ = {
+		CD77DEBD2028DAB700D95186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD191052023BC8F001DDF9F /* Func.swift in Sources */,
-				CDF84FD82020F94300692C61 /* Types.swift in Sources */,
-				CDD191022023BC6F001DDF9F /* Array.swift in Sources */,
-				CDD191092023BCFB001DDF9F /* Class.swift in Sources */,
-				CDD191072023BCA4001DDF9F /* Loops.swift in Sources */,
+				CD77DEC52028DAB700D95186 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CDF84FD92020F94300692C61 /* Debug */ = {
+		CD77DEC62028DAB700D95186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		CDF84FDA2020F94300692C61 /* Release */ = {
+		CD77DEC72028DAB700D95186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +233,7 @@
 			};
 			name = Release;
 		};
-		CDF84FDC2020F94300692C61 /* Debug */ = {
+		CD77DEC92028DAB700D95186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		CDF84FDD2020F94300692C61 /* Release */ = {
+		CD77DECA2028DAB700D95186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDF84FCF2020F94300692C61 /* Build configuration list for PBXProject "Notes" */ = {
+		CD77DEBC2028DAB700D95186 /* Build configuration list for PBXProject "func-inherit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF84FD92020F94300692C61 /* Debug */,
-				CDF84FDA2020F94300692C61 /* Release */,
+				CD77DEC62028DAB700D95186 /* Debug */,
+				CD77DEC72028DAB700D95186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF84FDB2020F94300692C61 /* Build configuration list for PBXNativeTarget "Notes" */ = {
+		CD77DEC82028DAB700D95186 /* Build configuration list for PBXNativeTarget "func-inherit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF84FDC2020F94300692C61 /* Debug */,
-				CDF84FDD2020F94300692C61 /* Release */,
+				CD77DEC92028DAB700D95186 /* Debug */,
+				CD77DECA2028DAB700D95186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDF84FCC2020F94300692C61 /* Project object */;
+	rootObject = CD77DEB92028DAB700D95186 /* Project object */;
 }
